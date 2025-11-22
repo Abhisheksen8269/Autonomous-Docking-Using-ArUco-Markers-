@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <world name="aruco_docking_arena">
+    
+    <include><uri>model://sun</uri></include>
+    <include><uri>model://ground_plane</uri></include>
+
+    <include>
+      <uri>model://ar_tags/model/marker0</uri> 
+      <pose>1.5 0.0 0.0005 0 0 0</pose> 
+      <name>aruco_target_0</name>
+    </include>
+
+    <include>
+      <uri>model://ar_tags/model/marker1</uri>
+      <pose>0.0 1.5 0.0005 0 0 1.57</pose> <name>aruco_side_1</name>
+    </include>
+    
+    <include>
+      <uri>model://ar_tags/model/marker2</uri>
+      <pose>-1.5 0.0 0.0005 0 0 3.14</pose> <name>aruco_rear_2</name>
+    </include>
+
+    </world>
+</sdf>
